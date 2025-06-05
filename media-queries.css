@@ -81,13 +81,13 @@
 
     @keyframes zoomBandeira {
     0% {
-        background-size: 165%;
+        background-size: 250%;
     }
     50% {
-        background-size: 190%;
+        background-size: 200%;
     }
     100% {
-        background-size: 165%;
+        background-size: 250%;
     }
     }
 
