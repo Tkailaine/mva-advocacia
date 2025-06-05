@@ -1,14 +1,14 @@
-const botaoMenu = document.getElementById('icone-menu');
-const fecharMenu = document.getElementById('fechar-menu');
-const menu = document.getElementById('menu');
+ const menu = document.getElementById("menu");
+  const iconeMenu = document.getElementById("icone-menu");
+  const fecharMenu = document.getElementById("fechar-menu");
 
-botaoMenu.addEventListener('click', () => {
-    menu.classList.add('active');
-});
+  iconeMenu.addEventListener("click", () => {
+    menu.classList.add("active");
+  });
 
-fecharMenu.addEventListener('click', () => {
-    menu.classList.remove('active');
-});
+  fecharMenu.addEventListener("click", () => {
+    menu.classList.remove("active");
+  });
 
 //BOTÃO PARA VOLTAR AO TOPO
 

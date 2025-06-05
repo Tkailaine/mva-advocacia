@@ -52,11 +52,15 @@ header img{
     width: 200px;
 }
 
+#simbolo-logo{
+  width: 100px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 10px;
     align-items: center;
 }
 
@@ -135,18 +139,36 @@ nav ul li a:hover::after {
   display: flex;
 }
 
-#bandeira, #valores, #ft-advogado{
-    
+
+
+#bandeira, #valores, #ft-advogado{  
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-#bandeira{
+#bandeira {
     width: 100%;
-    margin: auto;
-    background-image: url(imagens/bandeira.jpg);
-    background-position: top;
+    margin: 0 auto 80px;
+    background: linear-gradient(
+        0deg,
+        var(--color-azuere-10, #131212) 0%,
+        var(--color-azure-1070, rgba(68, 1, 5, 0.295)) 60%,
+        var(--color-black-0, rgba(0, 0, 0, 0.527)) 100%
+    ),
+    url(imagens/bandeira.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: zoomBandeira 10s ease-in-out infinite;
+}
 
+
+
+#bandeira header,
+#bandeira nav,
+#bandeira * {
+  position: relative;
+  z-index: 2; /* garante que fique acima do overlay */
 }
 
 
@@ -440,3 +462,4 @@ footer h2, footer li, footer a{
 #introducao-quem-somos{
   padding: 150px 0;
 }
+

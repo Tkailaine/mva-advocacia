@@ -3,6 +3,10 @@
 /* TELAS PEQUENAS */
 @media(max-width: 600px){
 
+     #simbolo-logo{
+       display: none;
+    }
+
     nav{
         width: 50%;
     }
@@ -71,8 +75,22 @@
     }
 
     #bandeira{
-        height: 500px;
+        height: 600px;
+      
     }
+
+    @keyframes zoomBandeira {
+    0% {
+        background-size: 165%;
+    }
+    50% {
+        background-size: 190%;
+    }
+    100% {
+        background-size: 165%;
+    }
+    }
+
     #sobre{
         flex-direction: column-reverse;
         gap: 80px;
@@ -97,8 +115,6 @@
     text-align: center;
     
     }
-
-   
 
     #linha-do-tempo {
         flex-direction: column;
@@ -139,6 +155,11 @@
 
 /* TABLET */
 @media(min-width: 601px) and (max-width:768px){
+
+     #simbolo-logo{
+       display: none;
+    }
+
 
     nav{
         width: 50%;
@@ -210,6 +231,19 @@
      #bandeira{
         height: 700px;
     }
+
+     @keyframes zoomBandeira {
+    0% {
+        background-size: 150%;
+    }
+    50% {
+        background-size: 170%;
+    }
+    100% {
+        background-size: 150%;
+    }
+    }
+
     #sobre{
         flex-direction: column-reverse;
         gap: 80px;
@@ -263,17 +297,54 @@
 
 /* DESKTOP */
 @media(min-width:769px) and (max-width:992px){
-
-    nav{
-        width: 80%;
+    header {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
     }
 
-    #fechar-menu{
+    nav {
+        width: 80%;
+        margin: auto;
+        padding: 20px 0;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    #icone-menu {
+        display: none; /* Esconde o botão hamburguer no desktop */
+    }
+
+    #logo-original {
         display: none;
     }
 
+    #simbolo-logo {
+        display: block;
+    }
+
+    #fechar-menu {
+        display: none;}
+  
+
     #bandeira{
         height: 800px;
+    }
+
+     @keyframes zoomBandeira {
+    0% {
+        background-size: 140%;
+    }
+    50% {
+        background-size: 170%;
+    }
+    100% {
+        background-size: 140%;
+    }
     }
 
      #container-valores{
@@ -330,19 +401,59 @@
 
 /* TELAS GRANDES */
 @media(min-width:993px){
+     header {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
 
-    nav{
-        width: 80%;
-    }
+  nav {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+  }
 
-    #fechar-menu{
-        display: none;
-    }
+  nav ul li a {
+    color: white;
+  }
+
+  #icone-menu {
+    display: none; /* Esconde o botão hamburguer no desktop */
+  }
+
+  #logo-original {
+    display: none;
+  }
+
+  #simbolo-logo {
+    display: block;
+  }
+
+  #fechar-menu {
+    display: none;
+  }
+
 
     #bandeira{
-        height: 800px;
+        height: 1000px;
+        background-attachment: fixed;
         
     }
+
+    @keyframes zoomBandeira {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 110%;
+    }
+    100% {
+        background-size: 100%;
+    }
+    }
+
     #sobre{
         padding: 80px;
     }
@@ -384,4 +495,18 @@
     display: none;
 }
 }
+}
+
+@media(min-width:990px) and (max-width: 1280px){
+     @keyframes zoomBandeira {
+    0% {
+        background-size: 130%;
+    }
+    50% {
+        background-size: 140%;
+    }
+    100% {
+        background-size: 130%;
+    }
+    }
 }
