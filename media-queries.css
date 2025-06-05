@@ -119,6 +119,7 @@
     #linha-do-tempo {
         flex-direction: column;
         align-items: center;
+        gap: 50px;
       }
 
       .ponto-tempo {
@@ -273,6 +274,7 @@
     #linha-do-tempo {
         flex-direction: column;
         align-items: center;
+        gap: 50px;
     }
 
     .ponto-tempo {
@@ -379,6 +381,7 @@
     #linha-do-tempo {
     flex-direction: column;
     align-items: center;
+    gap: 50px;
   }
   .ponto-tempo {
     width: 100%;
@@ -508,5 +511,12 @@
     100% {
         background-size: 130%;
     }
+    }
+}
+
+@media(min-width:990px) and (max-width: 1660px){
+    #linha-do-tempo{
+        max-width:90%;
+        gap: 50px 200px;
     }
 }

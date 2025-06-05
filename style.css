@@ -242,7 +242,6 @@ nav ul li a:hover::after {
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
   max-width: 90%;
   margin: 0.5rem auto 0 auto;
   padding-top: 3.5rem;
