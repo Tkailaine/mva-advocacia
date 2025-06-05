@@ -463,6 +463,24 @@ footer h2, footer li, footer a{
 }
 
 #introducao-quem-somos{
-  padding: 180px 0;
+  padding: 200px 0;
+
+}
+
+#conteudo-introducao{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#conteudo-introducao #txt-introducao{
+  width: 50%;
+  text-align: justify;
+}
+
+#txt-introducao h1{
+  color: #B99E6B;
+  font-weight: 400;
+  
 }
 
