@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+/* TELAS PEQUENAS */
+@media(max-width: 600px){
+
+    nav{
+        width: 50%;
+    }
+
+     #menu{
+        position: fixed;
+        height: 100vh;
+        left: -700px;
+        padding: 240px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: left 0.3s ease-out;
+        background-color: #f5f5f5;
+        z-index: 4;
+    }
+
+    #menu.active{
+        left: 0;
+    }
+
+    #menu ul{
+        flex-direction: column;
+        
+    }
+    #menu ul li{
+        padding: 10px;
+    }
+    #icone-menu{
+        position: fixed;
+        right: 25px;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        cursor: pointer;
+        z-index: 4;
+    }
+
+    #fechar-menu{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 1.8em;
+        background-color: transparent;
+        border: none;
+        color: #751e27;
+        cursor: pointer;
+    }
+    
+    .linha{
+        width: 30px;
+    }
+    
+    .linha, .linha-menor{
+        display: block;
+        height: 5px;
+        border-radius: 15px;
+        background-color: #a30f1e;
+        box-shadow: 1px 1px 0px rgba(250, 250, 250, 0.527);
+    }
+    
+    .linha-menor{
+        width: 25px;
+        margin-left: 5px;
+    }
+
+    #bandeira{
+        height: 500px;
+    }
+    #sobre{
+        flex-direction: column-reverse;
+        gap: 80px;
+    }
+
+    #conteudo-sobre{
+    width: 60%;
+    }
+
+    #container-valores{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .valor-txt{
+    width: 300px;
+    }
+
+     #container-valores > h2{
+    font-size: 2em;
+    width: 80%;
+    text-align: center;
+    
+    }
+
+    #linha-do-tempo {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .ponto-tempo {
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+      }
+
+      #linha-horizontal {
+        display: none;
+      }
+
+      #areas-sessao h2{
+        font-size: 2em;
+        margin-top: 80px;
+    }
+
+    #sessao-servicos h2{
+    font-size: 2em;
+    }
+
+
+
+}
+
+/* TABLET */
+@media(min-width: 601px) and (max-width:768px){
+
+    nav{
+        width: 50%;
+    }
+
+    #menu{
+        position: fixed;
+        height: 100vh;
+        left: -700px;
+        padding: 240px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: left 0.3s ease-out;
+        background-color: #f5f5f5;
+        z-index: 4;
+    }
+
+    #menu.active{
+        left: 0;
+    }
+
+    #menu ul{
+        flex-direction: column;
+        
+    }
+    #menu ul li{
+        padding: 10px;
+    }
+    #icone-menu{
+        position: fixed;
+        right: 25px;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        cursor: pointer;
+        z-index: 4;
+    }
+
+    #fechar-menu{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 1.8em;
+        background-color: transparent;
+        border: none;
+        color: #751e27;
+        cursor: pointer;
+    }
+    
+    .linha{
+        width: 30px;
+    }
+    
+    .linha, .linha-menor{
+        display: block;
+        height: 5px;
+        border-radius: 15px;
+        background-color: #a30f1e;
+        box-shadow: 1px 1px 0px rgba(250, 250, 250, 0.527);
+    }
+    
+    .linha-menor{
+        width: 25px;
+        margin-left: 5px;
+    }
+
+     #bandeira{
+        height: 700px;
+    }
+    #sobre{
+        flex-direction: column-reverse;
+        gap: 80px;
+    }
+
+    #conteudo-sobre{
+    width: 60%;
+    }
+
+
+     #container-valores{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .valor-txt{
+    width: 400px;
+    }
+
+    #container-valores > h2{
+    font-size: 2em;
+    width: 80%;
+    text-align: center;
+    
+    }
+
+    #linha-do-tempo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ponto-tempo {
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+    }
+
+    #linha-horizontal {
+        display: none;
+    }
+
+    #areas-sessao h2{
+    font-size: 2em;
+ 
+    }
+
+    #sessao-servicos h2{
+    font-size: 2em;
+    }
+}
+
+/* DESKTOP */
+@media(min-width:769px) and (max-width:992px){
+
+    nav{
+        width: 80%;
+    }
+
+    #fechar-menu{
+        display: none;
+    }
+
+    #bandeira{
+        height: 800px;
+    }
+
+     #container-valores{
+        flex-direction: row-reverse;
+    }
+
+    #conteudo-sobre{
+    width: 40%;
+    }
+
+    #container-valores > h2{
+    font-size: 4em;
+    width: 30%;
+    
+    }   
+
+    #container-valores{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .valor-txt{
+    width: 500px;
+    }
+
+    #container-valores > h2{
+    font-size: 3em;
+    width: 80%;
+    text-align: center;
+    }
+
+    #linha-do-tempo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ponto-tempo {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .ponto-tempo p {
+    flex-grow: 1; 
+    }
+
+   #areas-sessao h2{
+    font-size: 2em;
+ 
+    }
+
+    #sessao-servicos h2{
+    font-size: 2.5em;
+    }
+}
+
+/* TELAS GRANDES */
+@media(min-width:993px){
+
+    nav{
+        width: 80%;
+    }
+
+    #fechar-menu{
+        display: none;
+    }
+
+    #bandeira{
+        height: 800px;
+        
+    }
+    #sobre{
+        padding: 80px;
+    }
+
+    #conteudo-sobre{
+    width: 40%;
+    }
+
+    #container-valores{
+        flex-direction: row-reverse;
+    }
+
+    .valor-txt{
+    width: 500px;
+    }
+
+    #container-valores > h2{
+    font-size: 4em;
+    width: 30%;
+    
+    }
+    
+    .ponto-tempo p {
+    flex-grow: 1; 
+    }
+
+    #areas-sessao h2{
+    font-size: 2.5em;
+    }
+
+    #sessao-servicos h2{
+    font-size: 2.5em;
+    }
+
+
+
+@media(min-width:1778px){
+    .oculto{
+    display: none;
+}
+}
+}
