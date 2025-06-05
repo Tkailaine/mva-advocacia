@@ -48,6 +48,8 @@ button{
     margin-top: 40px;
 }
 
+
+
 header img{ 
     width: 200px;
 }
@@ -462,10 +464,7 @@ footer h2, footer li, footer a{
   margin: auto;
 }
 
-#introducao-quem-somos{
-  padding: 200px 0;
 
-}
 
 #conteudo-introducao{
   display: flex;
@@ -474,7 +473,6 @@ footer h2, footer li, footer a{
 }
 
 #conteudo-introducao #txt-introducao{
-  width: 50%;
   text-align: justify;
 }
 

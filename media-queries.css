@@ -140,6 +140,21 @@
     }
 
 
+     /* PÁGINA SOBRE */
+
+    #introducao-quem-somos{
+    padding: 150px 0;
+    }
+
+    #conteudo-introducao{
+    flex-direction: column;
+    gap: 50px;
+    }
+
+    #conteudo-introducao #txt-introducao{
+    width: 80%;
+
+    }
 
 }
 
@@ -284,6 +299,23 @@
     #sessao-servicos h2{
     font-size: 2em;
     }
+
+     /* PÁGINA SOBRE */
+
+    #introducao-quem-somos{
+    padding: 150px 0;
+    }
+
+    #conteudo-introducao{
+    flex-direction: column;
+    gap: 50px;
+    }
+
+    #conteudo-introducao #txt-introducao{
+    width: 80%;
+
+    }
+    
 }
 
 /* DESKTOP */
@@ -389,6 +421,18 @@
     #sessao-servicos h2{
     font-size: 2.5em;
     }
+
+     /* PAGINA SOBRE */
+    #introducao-quem-somos{
+    padding: 200px 0;
+    }
+
+     #conteudo-introducao #txt-introducao{
+    width: 50%;
+
+    }
+
+   
 }
 
 /* TELAS GRANDES */
@@ -400,6 +444,7 @@
     width: 100%;
     z-index: 10;
   }
+  
 
   nav {
     width: 80%;
@@ -478,6 +523,18 @@
 
     #sessao-servicos h2{
     font-size: 2.5em;
+    }
+
+    /* PÁGINA SOBRE */
+
+    #introducao-quem-somos{
+  padding: 200px 0;
+
+    }
+
+    #conteudo-introducao #txt-introducao{
+    width: 50%;
+
     }
 
 
