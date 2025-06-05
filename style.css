@@ -247,6 +247,10 @@ nav ul li a:hover::after {
   padding-top: 3.5rem;
 }
 
+#linha-do-tempo p{
+  text-align: justify;
+}
+
 #linha-do-tempo button {
   border-color: #B49465;
 }
