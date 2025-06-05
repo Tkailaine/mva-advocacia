@@ -144,16 +144,27 @@
 
     #introducao-quem-somos{
     padding: 150px 0;
+    flex-direction: column;
+    
     }
 
     #conteudo-introducao{
     flex-direction: column;
     gap: 50px;
+    width: 80%;
     }
 
-    #conteudo-introducao #txt-introducao{
+    #conteudo-introducao, #txt-introducao{
     width: 80%;
+    }
 
+    #container-formacoes{
+        width: 80%;
+        align-items: center;
+    }
+
+    .container-conteudo{
+        width: 82%;
     }
 
 }
@@ -302,19 +313,32 @@
 
      /* PÁGINA SOBRE */
 
-    #introducao-quem-somos{
+   #introducao-quem-somos{
     padding: 150px 0;
+    flex-direction: column;
+    
     }
 
     #conteudo-introducao{
     flex-direction: column;
     gap: 50px;
-    }
-
-    #conteudo-introducao #txt-introducao{
     width: 80%;
-
     }
+
+    #conteudo-introducao, #txt-introducao{
+    width: 80%;
+    }
+
+    #container-formacoes{
+        width: 80%;
+        align-items: center;
+    }
+
+    .container-conteudo{
+        width: 82%;
+    }
+
+
     
 }
 
@@ -427,10 +451,15 @@
     padding: 200px 0;
     }
 
-     #conteudo-introducao #txt-introducao{
+     #conteudo-introducao, #txt-introducao{
     width: 50%;
-
     }
+
+    #container-formacoes, #container-conteudo{
+        width: 50%;
+        margin: auto;
+    }
+
 
    
 }
@@ -528,14 +557,19 @@
     /* PÁGINA SOBRE */
 
     #introducao-quem-somos{
-  padding: 200px 0;
+  padding: 150px 0 0;
 
     }
 
-    #conteudo-introducao #txt-introducao{
+    #conteudo-introducao, #txt-introducao{
     width: 50%;
-
     }
+
+    #container-formacoes, #container-conteudo{
+        width: 50%;
+        margin: auto;
+    }
+
 
 
 

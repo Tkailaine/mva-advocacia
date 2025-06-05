@@ -30,6 +30,10 @@ a{
     color: #751e27;
 }
 
+strong{
+  color: #B49465;
+}
+
 button{
     cursor: pointer;
 }
@@ -459,16 +463,17 @@ footer h2, footer li, footer a{
   background-size: cover;  
 }
 
-.centralizar{
-  width: 80%;
-  margin: auto;
+#introducao-quem-somos{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
 }
-
-
-
 #conteudo-introducao{
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  gap: 30px;
   align-items: center;
 }
 
@@ -481,4 +486,43 @@ footer h2, footer li, footer a{
   font-weight: 400;
   
 }
+
+#container-formacoes{
+  display: flex;
+  justify-content: center;
+  
+  text-align: justify;
+  margin: auto;
+
+}
+
+.container-conteudo{
+  display: flex;
+  justify-content: space-around;  
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+
+#container-formacoes ul{
+  list-style: none;
+ 
+}
+
+#container-formacoes ul, #container-formacoes p{
+  width: 90%;
+}
+
+#container-formacoes li{
+  margin: 20px 0;
+}
+
+
+#espacamento{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 
