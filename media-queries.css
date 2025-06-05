@@ -75,21 +75,10 @@
     }
 
     #bandeira{
-        height: 600px;
+        height: 400px;
       
     }
 
-    @keyframes zoomBandeira {
-    0% {
-        background-size: 250%;
-    }
-    50% {
-        background-size: 200%;
-    }
-    100% {
-        background-size: 250%;
-    }
-    }
 
     #sobre{
         flex-direction: column-reverse;
