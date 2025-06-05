@@ -98,6 +98,8 @@
     
     }
 
+   
+
     #linha-do-tempo {
         flex-direction: column;
         align-items: center;
@@ -112,10 +114,19 @@
       #linha-horizontal {
         display: none;
       }
+      
+      #areas-sessao{
+        margin-top:  100px;
+  
+    }
 
       #areas-sessao h2{
         font-size: 2em;
         margin-top: 80px;
+    }
+
+    #sessao-servicos{
+        padding-top: 0;
     }
 
     #sessao-servicos h2{
