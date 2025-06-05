@@ -424,3 +424,19 @@ footer h2, footer li, footer a{
 .hover-borda-gradual:hover {
   border: 2px solid white;
 }
+
+
+/*PAGINA SOBRE MIM */
+.fundo-personalizado{
+  background-image: url(imagens/fundo-corpo.jpg);
+  background-size: cover;  
+}
+
+.centralizar{
+  width: 80%;
+  margin: auto;
+}
+
+#introducao-quem-somos{
+  padding: 150px 0;
+}
