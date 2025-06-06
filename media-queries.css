@@ -167,6 +167,7 @@
         width: 82%;
     }
 
+ 
 }
 
 /* TABLET */
@@ -460,6 +461,8 @@
         margin: auto;
     }
 
+    
+
 
    
 }
@@ -570,6 +573,10 @@
         margin: auto;
     }
 
+    /* PÁGINA ATUAÇÕES */
+
+    
+
 
 
 
@@ -600,3 +607,36 @@
         gap: 50px 200px;
     }
 }
+
+@media(max-width:1010px){
+
+   /* PÁGINA ATUAÇÕES */
+
+    #container-atuacoes{
+    padding: 20px 0 50px;
+    }
+
+    aside {
+
+    width: 50%;
+    margin: 200px auto 0px;
+    
+    }
+}
+
+
+
+
+@media(min-width:1011px){
+    aside {
+    position: fixed;
+    z-index: 1; 
+    left: 6%;
+    top: 20%;
+
+    }
+
+    #container-atuacoes{
+    padding: 150px 0 50px;
+    }
+    }
