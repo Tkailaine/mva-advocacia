@@ -167,6 +167,22 @@
         width: 82%;
     }
 
+      /* PÁGINA CONTATO */
+ 
+    #sessao-contato{
+        flex-direction: column;
+        gap: 50px;
+        margin: 80px auto;
+    }
+    #sessao-contato h1{
+    font-size: 2em;
+    }
+
+    #container-form, #txt-contato{
+    width: 80%;
+    }
+
+
  
 }
 
@@ -339,6 +355,23 @@
         width: 82%;
     }
 
+    /* PÁGINA CONTATO */
+ 
+    #sessao-contato{
+        flex-direction: column;
+        gap: 50px;
+        margin: 80px auto;
+    }
+    #sessao-contato h1{
+    font-size: 2em;
+    }
+
+    #container-form, #txt-contato{
+    width: 80%;
+    }
+
+
+
 
     
 }
@@ -461,6 +494,21 @@
         margin: auto;
     }
 
+      /* PÁGINA CONTATO */
+
+    #sessao-contato{
+        margin: 150px auto;
+    }
+
+    #sessao-contato h1{
+    font-size: 3em;
+    }
+
+    #container-form, #txt-contato{
+    width: 40%;
+    }
+
+
     
 
 
@@ -560,7 +608,7 @@
     /* PÁGINA SOBRE */
 
     #introducao-quem-somos{
-  padding: 150px 0 0;
+    padding: 150px 0 0;
 
     }
 
@@ -573,7 +621,19 @@
         margin: auto;
     }
 
-    /* PÁGINA ATUAÇÕES */
+    /* PÁGINA CONTATO */
+
+    #sessao-contato{
+        margin: 150px auto;
+    }
+
+    #sessao-contato h1{
+    font-size: 4em;
+    }
+
+    #container-form, #txt-contato{
+    width: 40%;
+    }
 
     
 
@@ -613,15 +673,15 @@
    /* PÁGINA ATUAÇÕES */
 
     #container-atuacoes{
-    padding: 20px 0 50px;
+    padding: 0px 0 50px;
     }
+
+    main{padding-top: 10px; /* ajuste conforme a altura do menu/header */}
 
     aside {
-
-    width: 50%;
-    margin: 200px auto 0px;
-    
-    }
+    margin: 0px 25% 0;
+    padding: 70px 0 0;
+}
 }
 
 

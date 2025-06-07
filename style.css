@@ -541,6 +541,13 @@ footer h2, footer li, footer a{
   text-align: justify;
 }
 
+#container-atuacoes h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #B49465;
+  font-size: 24px;
+}
+
 .area-atuacao{
   margin: 50px 0;
 }
@@ -559,7 +566,80 @@ list-style: none;
 
 }
 
-aside ul li{
-  margin: 30px 0;
+aside ul li {
+  margin: 20px 0;
+  transition: all 0.3s ease; /* suaviza qualquer mudança */
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+aside ul li:hover {
+  border: 2px solid #B99E6B;
+  background-color: rgba(185, 158, 107, 0.1); /* fundo leve com a mesma cor */
+  box-shadow: 0 0 8px rgba(185, 158, 107, 0.3); /* sombra sutil */
+  transform: translateX(5px); /* leve deslocamento lateral */
+}
+
+
+/*FORMULÁRIO*/
+
+#sessao-contato{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  align-items: center;
+}
+
+#sessao-contato h1{
+  font-family: var(--fonte-principal);
+  color: #750c15;
+}
+
+.form-contato {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+
+
+.form-contato h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #52070e;
+}
+
+.form-contato label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-contato input,
+.form-contato textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.form-contato button {
+  background-color: #52070e;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-contato button:hover {
+  background-color: #750c15;
 }
 
