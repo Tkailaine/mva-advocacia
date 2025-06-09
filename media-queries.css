@@ -668,7 +668,7 @@
     }
 }
 
-@media(max-width:1010px){
+@media(max-width:1360px){
 
    /* PÁGINA ATUAÇÕES */
 
@@ -680,14 +680,14 @@
 
     aside {
     margin: 0px 25% 0;
-    padding: 70px 0 0;
+    padding: 160px 0 0;
 }
 }
 
 
 
 
-@media(min-width:1011px){
+@media(min-width:1361px){
     aside {
     position: fixed;
     z-index: 1; 

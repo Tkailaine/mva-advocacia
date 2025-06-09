@@ -195,7 +195,14 @@ nav ul li a:hover::after {
     border-radius: 50%;
     width:300px;
     height: 300px;
+}
+
+.advogado{
     background-image: url(imagens/marcus-andrade.jpg);
+}
+
+.advogado2{
+    background-image: url(imagens/marcus-andrade2.jpg);
 }
 
 #conteudo-sobre{
@@ -216,6 +223,10 @@ nav ul li a:hover::after {
     gap: 0px;
     max-width: 1800px;
     margin: auto;
+}
+
+#container-valores #slogan{
+  text-align: justify;
 }
 
 
@@ -353,6 +364,7 @@ nav ul li a:hover::after {
   background-color: transparent;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: justify;
 }
 
 .card-servicos:hover {
@@ -491,6 +503,7 @@ footer h2, footer li, footer a{
 #txt-introducao h1{
   color: #B99E6B;
   font-weight: 400;
+  font-size: 1.3em;
   
 }
 
@@ -546,8 +559,12 @@ footer h2, footer li, footer a{
   font-weight: 400;
   color: #B49465;
   font-size: 24px;
+
 }
 
+#txt-contato h1, #container-atuacoes h1, #container-atuacoes h2, #txt-introducao h2, #introducao-quem-somos h2, #conteudo-sobre h2{
+  margin-bottom: 15px;
+}
 .area-atuacao{
   margin: 50px 0;
 }
@@ -560,6 +577,10 @@ footer h2, footer li, footer a{
   margin: 20px 0;
 }
 
+aside{
+
+  max-width: 250px;
+}
 
 aside ul{
 list-style: none;
