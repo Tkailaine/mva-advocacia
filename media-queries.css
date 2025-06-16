@@ -193,13 +193,28 @@
     }
 
     #container-formacoes{
-        width: 80%;
+        width: 100%;
         align-items: center;
     }
 
     .container-conteudo{
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
+
+    .container-conteudo ul{
+        width: 0%;
+        margin: auto;
+    }
+
+    #aperfeicoamento{
+        width: 90%;
+        margin: auto;
+    }
+
+    #aperfeicoamento p{
+        width: 100%;
+}
 
       /* PÁGINA CONTATO */
  
@@ -412,13 +427,29 @@
     }
 
     #container-formacoes{
-        width: 80%;
+        width: 90%;
         align-items: center;
     }
 
-    .container-conteudo{
-        width: 100%;
+     .container-conteudo{
+        width:100%;
+        margin: auto;
     }
+
+    .container-conteudo ul{
+        width: 0%;
+        margin: auto;
+    }
+
+    #aperfeicoamento{
+      width: 90%;
+      margin: auto;
+      
+    }
+
+    #aperfeicoamento p{
+        width: 100%;
+}
 
     /* PÁGINA CONTATO */
  

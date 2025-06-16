@@ -527,11 +527,17 @@ footer h2, footer li, footer a{
 
 }
 
+#aperfeicoamento p{
+  text-align: justify;
+
+}
 
 
 #container-formacoes ul{
   list-style: none;
   line-height: 2em;
+
+
  
 }
 
@@ -581,6 +587,7 @@ footer h2, footer li, footer a{
 
 .area-atuacao ul{
   list-style: none;
+  text-align: justify;
 }
 
 .area-atuacao ul li{
