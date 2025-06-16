@@ -19,6 +19,7 @@ html{
 h2{
     color: #751e27;
     font-family: var(--fonte-principal);
+
 }
 body{
     background-color: #EBEBEB;
@@ -87,6 +88,7 @@ nav ul li a {
   color: #751e27;
   font-weight: 500;
   padding-bottom: 4px; 
+  
 }
 
 nav ul li a::after {
@@ -184,9 +186,8 @@ nav ul li a:hover::after {
 
 #sobre{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1800px;
     margin: auto;
     padding: 0;
 }
@@ -207,6 +208,7 @@ nav ul li a:hover::after {
 
 #conteudo-sobre{
     text-align: justify;
+   
     }
 
 
@@ -233,7 +235,6 @@ nav ul li a:hover::after {
 
 .valor-txt{
     text-align: justify;
-    margin: 30px 0;
 }
 
 .valor-txt h2{
@@ -263,9 +264,8 @@ nav ul li a:hover::after {
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  max-width: 90%;
   margin: 0.5rem auto 0 auto;
-  padding-top: 3.5rem;
+
 }
 
 #linha-do-tempo p{
@@ -289,7 +289,6 @@ nav ul li a:hover::after {
 .ponto-tempo {
   text-align: center;
   background-color: transparent;
-  padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -315,15 +314,15 @@ nav ul li a:hover::after {
 }
 
 .ponto-tempo h3 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 15px;
   font-size: 1.2rem;
   color: #B49465;
 }
 
 .ponto-tempo p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: #333;
+  font-size: 1em;
+  line-height: 2em;
+  width: 100%;
   
 }
 
@@ -351,8 +350,7 @@ nav ul li a:hover::after {
 .grid-servicos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  padding: 2rem;
+  gap: 30px;
   max-width: 80%;
   margin: auto;
 }
@@ -379,17 +377,18 @@ nav ul li a:hover::after {
 }
 
 .card-servicos h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: #751e27;
   text-align: left;
+
 }
 
 .card-servicos p {
   font-size: 0.95rem;
-  color: #444;
-  line-height: 1.5;
+
+  line-height: 2em;
   text-align: justify;
 }
 
@@ -397,7 +396,7 @@ footer{
   position: relative;
   z-index: 2;
   width: 100%;
-  padding: 80px 0;
+  padding: 80px 0 40px;
   background-color: #52070e;
   color: white;
 
@@ -498,21 +497,22 @@ footer h2, footer li, footer a{
   align-items: center;
 }
 
-#conteudo-introducao #txt-introducao{
+#conteudo-introducao #txt-introducao p{
   text-align: justify;
 }
+
 
 #txt-introducao h1{
   color: #B99E6B;
   font-weight: 400;
-  font-size: 1.3em;
+  font-size:24px;
+  margin-bottom: 15px;
   
 }
 
 #container-formacoes{
   display: flex;
   justify-content: center;
-  
   text-align: justify;
   margin: auto;
 
@@ -523,12 +523,15 @@ footer h2, footer li, footer a{
   justify-content: space-around;  
   flex-direction: column;
   gap: 50px;
+  line-height: 2em;
+
 }
 
 
 
 #container-formacoes ul{
   list-style: none;
+  line-height: 2em;
  
 }
 
@@ -537,7 +540,7 @@ footer h2, footer li, footer a{
 }
 
 #container-formacoes li{
-  margin: 20px 0;
+ margin: 15px 0;
 }
 
 
@@ -547,14 +550,18 @@ footer h2, footer li, footer a{
   gap: 50px;
 }
 
+#espacamento ul li{
+  line-height: 2em;
+}
+
 /*ATUACOES */
 #txt-contato h1, #container-atuacoes h1, #container-atuacoes h2, #txt-introducao h2, #introducao-quem-somos h2, #conteudo-sobre h2{
   margin-bottom: 15px;
 }
 
-#container-atuacoes{
-  width: 50%;
-  margin: auto;
+
+
+#container-atuacoes p{
   text-align: justify;
 }
 
@@ -569,20 +576,19 @@ footer h2, footer li, footer a{
 
 .area-atuacao{
   margin: 50px 0;
+
 }
 
 .area-atuacao ul{
-  list-style: inside;
+  list-style: none;
 }
 
 .area-atuacao ul li{
   margin: 20px 0;
+  
 }
 
-aside{
 
-  max-width: 250px;
-}
 
 aside ul{
 list-style: none;
@@ -592,7 +598,7 @@ list-style: none;
 aside ul li {
   margin: 20px 0;
   transition: all 0.3s ease; /* suaviza qualquer mudança */
-  padding: 8px 12px;
+  padding: 8px 0px;
   border-radius: 5px;
 }
 
@@ -600,6 +606,7 @@ aside ul li:hover {
   border: 2px solid #B99E6B;
   background-color: rgba(185, 158, 107, 0.1); /* fundo leve com a mesma cor */
   box-shadow: 0 0 8px rgba(185, 158, 107, 0.3); /* sombra sutil */
+  padding: 8px 12px;
   transform: translateX(5px); /* leve deslocamento lateral */
 }
 
@@ -612,6 +619,10 @@ aside ul li:hover {
   justify-content: space-around;
   text-align: justify;
   align-items: center;
+}
+
+#sessao-contato p{
+  line-height: 2em;
 }
 
 #sessao-contato h1{
@@ -634,7 +645,7 @@ aside ul li:hover {
 .form-contato h2 {
   margin-bottom: 20px;
   font-size: 24px;
-  color: #52070e;
+  color: #750c15;
 }
 
 .form-contato label {
@@ -666,3 +677,10 @@ aside ul li:hover {
   background-color: #750c15;
 }
 
+.divisoria{
+    display: block;
+    width: 90%;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 50px auto 0px;
+}

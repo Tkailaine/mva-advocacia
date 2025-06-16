@@ -7,72 +7,95 @@
        display: none;
     }
 
-    nav{
-        width: 50%;
-    }
+   nav {
+    width: 70%;
+}
 
-     #menu{
-        position: fixed;
-        height: 100vh;
-        left: -700px;
-        padding: 240px 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transition: left 0.3s ease-out;
-        background-color: #f5f5f5;
-        z-index: 4;
-    }
+#menu {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: -700px;
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    align-items: flex-start;
+    transition: left 0.3s ease-out;
+    background-color: #f5f5f5;
+    z-index: 4;
+}
 
-    #menu.active{
-        left: 0;
-    }
+#menu figure{
+    align-self: center;
+}
 
-    #menu ul{
-        flex-direction: column;
-        
-    }
-    #menu ul li{
-        padding: 10px;
-    }
-    #icone-menu{
-        position: fixed;
-        right: 25px;
-        top: 50px;
-        display: flex;
-        flex-direction: column;
-        gap: 3px;
-        cursor: pointer;
-        z-index: 4;
-    }
+#menu.active {
+    left: 0;
+}
 
-    #fechar-menu{
-        position: absolute;
-        right: 20px;
-        top: 20px;
-        font-size: 1.8em;
-        background-color: transparent;
-        border: none;
-        color: #751e27;
-        cursor: pointer;
-    }
-    
-    .linha{
-        width: 30px;
-    }
-    
-    .linha, .linha-menor{
-        display: block;
-        height: 5px;
-        border-radius: 15px;
-        background-color:#B49465 ;
+#menu ul {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 0px;
+    padding: 0;
+}
 
-    }
-    
-    .linha-menor{
-        width: 25px;
-        margin-left: 5px;
-    }
+#menu ul li {
+    padding: 0px 0;
+    width: 100%; 
+}
+
+#menu ul li a {
+    display: block;
+    width: 90%; 
+    padding: 10px 0;
+    text-align: left; 
+    color: #751e27; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#icone-menu {
+    position: fixed;
+    right: 25px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+#fechar-menu {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.8em;
+    background-color: transparent;
+    border: none;
+    color: #751e27;
+    cursor: pointer;
+}
+
+.linha {
+    width: 30px;
+}
+
+.linha,
+.linha-menor {
+    display: block;
+    height: 5px;
+    border-radius: 15px;
+    background-color: #B49465;
+}
+
+.linha-menor {
+    width: 25px;
+    margin-left: 5px;
+}
+
 
     #bandeira{
         height: 400px;
@@ -86,7 +109,7 @@
     }
 
     #conteudo-sobre{
-    width: 60%;
+    width: 80%;
     }
 
     #container-valores{
@@ -94,8 +117,9 @@
         gap: 30px;
     }
 
-    .valor-txt{
-    width: 300px;
+      .valor-txt{
+         width: 80%;
+        margin: 30px auto;
     }
 
      #container-valores > h2{
@@ -109,11 +133,12 @@
         flex-direction: column;
         align-items: center;
         gap: 50px;
+        
       }
 
       .ponto-tempo {
-        width: 100%;
-        max-width: 600px;
+        width: 80%;
+        margin: auto;
         text-align: center;
       }
 
@@ -128,7 +153,6 @@
 
       #areas-sessao h2{
         font-size: 2em;
-        margin-top: 80px;
     }
 
     #sessao-servicos{
@@ -140,11 +164,20 @@
     }
 
 
+    /*PÁGINA ÁREAS ATUAÇÕES */
+
+    #container-atuacoes{
+     width: 80%;
+     margin: auto;
+    }
+
      /* PÁGINA SOBRE */
 
     #introducao-quem-somos{
     padding: 150px 0;
     flex-direction: column;
+    width: 100%;
+  
     
     }
 
@@ -154,8 +187,9 @@
     width: 80%;
     }
 
-    #conteudo-introducao, #txt-introducao{
+    #conteudo-introducao{
     width: 80%;
+
     }
 
     #container-formacoes{
@@ -164,7 +198,7 @@
     }
 
     .container-conteudo{
-        width: 82%;
+        width: 100%;
     }
 
       /* PÁGINA CONTATO */
@@ -178,9 +212,7 @@
     font-size: 2em;
     }
 
-    #container-form, #txt-contato{
-    width: 80%;
-    }
+   
 
 
  
@@ -193,73 +225,94 @@
        display: none;
     }
 
+ nav {
+    width: 70%;
+}
 
-    nav{
-        width: 50%;
-    }
+#menu {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: -700px;
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    align-items: flex-start;
+    transition: left 0.3s ease-out;
+    background-color: #f5f5f5;
+    z-index: 4;
+}
 
-    #menu{
-        position: fixed;
-        height: 100vh;
-        left: -700px;
-        padding: 240px 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transition: left 0.3s ease-out;
-        background-color: #f5f5f5;
-        z-index: 4;
-    }
+#menu figure{
+    align-self: center;
+}
 
-    #menu.active{
-        left: 0;
-    }
+#menu.active {
+    left: 0;
+}
 
-    #menu ul{
-        flex-direction: column;
-        
-    }
-    #menu ul li{
-        padding: 10px;
-    }
-    #icone-menu{
-        position: fixed;
-        right: 25px;
-        top: 50px;
-        display: flex;
-        flex-direction: column;
-        gap: 3px;
-        cursor: pointer;
-        z-index: 4;
-    }
+#menu ul {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 0px;
+    padding: 0;
+}
 
-    #fechar-menu{
-        position: absolute;
-        right: 20px;
-        top: 20px;
-        font-size: 1.8em;
-        background-color: transparent;
-        border: none;
-        color: #751e27;
-        cursor: pointer;
-    }
-    
-    .linha{
-        width: 30px;
-    }
-    
-    .linha, .linha-menor{
-        display: block;
-        height: 5px;
-        border-radius: 15px;
-        background-color: #B49465;
+#menu ul li {
+    padding: 0px 0;
+    width: 100%; 
+}
 
-    }
-    
-    .linha-menor{
-        width: 25px;
-        margin-left: 5px;
-    }
+#menu ul li a {
+    display: block;
+    width: 40%; 
+    padding: 10px 0;
+    text-align: left; 
+    color: #751e27; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#icone-menu {
+    position: fixed;
+    right: 25px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+#fechar-menu {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.8em;
+    background-color: transparent;
+    border: none;
+    color: #751e27;
+    cursor: pointer;
+}
+
+.linha {
+    width: 30px;
+}
+
+.linha,
+.linha-menor {
+    display: block;
+    height: 5px;
+    border-radius: 15px;
+    background-color: #B49465;
+}
+
+.linha-menor {
+    width: 25px;
+    margin-left: 5px;
+}
 
      #bandeira{
         height: 700px;
@@ -283,7 +336,7 @@
     }
 
     #conteudo-sobre{
-    width: 60%;
+    width: 80%;
     }
 
 
@@ -293,7 +346,8 @@
     }
 
     .valor-txt{
-    width: 400px;
+         width: 80%;
+        margin: 30px auto;
     }
 
     #container-valores > h2{
@@ -307,6 +361,9 @@
         flex-direction: column;
         align-items: center;
         gap: 50px;
+        padding-top: 3.5rem;
+        width: 80%;
+
     }
 
     .ponto-tempo {
@@ -321,11 +378,19 @@
 
     #areas-sessao h2{
     font-size: 2em;
+    margin-top: 0;
  
     }
 
     #sessao-servicos h2{
     font-size: 2em;
+    }
+
+    /*PÁGINA ÁREAS ATUAÇÕES */
+
+    #container-atuacoes{
+     width: 80%;
+     margin: auto;
     }
 
      /* PÁGINA SOBRE */
@@ -342,7 +407,7 @@
     width: 80%;
     }
 
-    #conteudo-introducao, #txt-introducao{
+    #conteudo-introducao{
     width: 80%;
     }
 
@@ -352,7 +417,7 @@
     }
 
     .container-conteudo{
-        width: 82%;
+        width: 100%;
     }
 
     /* PÁGINA CONTATO */
@@ -364,10 +429,6 @@
     }
     #sessao-contato h1{
     font-size: 2em;
-    }
-
-    #container-form, #txt-contato{
-    width: 80%;
     }
 
 
@@ -428,9 +489,11 @@
     }
     }
 
-     #container-valores{
-        flex-direction: row-reverse;
+    #sobre{
+    max-width: 80%;
+   
     }
+
 
     #conteudo-sobre{
     width: 40%;
@@ -442,13 +505,15 @@
     
     }   
 
-    #container-valores{
+    #container-valores{ 
+        flex-direction: row-reverse;
         flex-direction: column;
         gap: 30px;
     }
 
-    .valor-txt{
-    width: 500px;
+      .valor-txt{
+         width: 80%;
+        margin: 30px auto;
     }
 
     #container-valores > h2{
@@ -461,7 +526,10 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
-  }
+    padding-top: 3.5rem;
+    max-width: 90%;
+    }
+
   .ponto-tempo {
     width: 100%;
     max-width: 500px;
@@ -480,14 +548,26 @@
     font-size: 2.5em;
     }
 
+    /*PÁGINA ÁREAS ATUAÇÕES */
+
+    #container-atuacoes{
+     width: 80%;
+     margin: auto;
+    }
+
      /* PAGINA SOBRE */
     #introducao-quem-somos{
     padding: 200px 0;
     }
 
-     #conteudo-introducao, #txt-introducao{
+     #conteudo-introducao{
     width: 50%;
     }
+
+    #txt-introducao{
+        width: 80%;
+    }
+
 
     #container-formacoes, #container-conteudo{
         width: 50%;
@@ -573,6 +653,7 @@
 
     #sobre{
         padding: 80px;
+        max-width: 1600px;
     }
 
     #conteudo-sobre{
@@ -584,13 +665,22 @@
     }
 
     .valor-txt{
-    width: 500px;
+    width: 400px;
+    margin: 30px auto;
     }
 
     #container-valores > h2{
     font-size: 4em;
-    width: 30%;
-    
+    width: 35%;
+    }
+
+    #linha-do-tempo {
+    padding-top: 3.5rem;
+    max-width: 90%;
+    }
+
+    .ponto-tempo{
+        padding: 1.5rem;
     }
     
     .ponto-tempo p {
@@ -605,6 +695,9 @@
     font-size: 2.5em;
     }
 
+   
+    
+
     /* PÁGINA SOBRE */
 
     #introducao-quem-somos{
@@ -612,9 +705,14 @@
 
     }
 
-    #conteudo-introducao, #txt-introducao{
+      #conteudo-introducao{
     width: 50%;
     }
+
+    #txt-introducao{
+        width: 60%;
+    }
+
 
     #container-formacoes, #container-conteudo{
         width: 50%;
@@ -668,23 +766,51 @@
     }
 }
 
-@media(max-width:1360px){
+@media(min-width:993px) and (max-width: 1503px){
+     #container-valores > h2{
+    font-size: 3em;
+
+    
+    }
+
+}
+
+@media(max-width:770px){
 
    /* PÁGINA ATUAÇÕES */
 
     #container-atuacoes{
     padding: 0px 0 50px;
     }
-
-    main{padding-top: 10px; /* ajuste conforme a altura do menu/header */}
-
     aside {
-    margin: 0px 25% 0;
+    margin: 0px auto;
+    padding: 80px 0 0;
+    width: 80%;
+}
+}
+
+@media(min-width:771px) and (max-width:1360px){
+
+   /* PÁGINA ATUAÇÕES */
+
+    #container-atuacoes{
+    padding: 0px 0 50px;
+    }
+    aside {
+    margin: 0px auto;
     padding: 160px 0 0;
+    width: 80%;
+
+    
+    
 }
 }
 
-
+@media(min-width:992px) and (max-width: 1360px){
+   #container-atuacoes{
+     width: 80%;
+     margin: auto;
+    }}
 
 
 @media(min-width:1361px){
@@ -693,10 +819,18 @@
     z-index: 1; 
     left: 6%;
     top: 20%;
+    width: 300px;
 
     }
+
+
+     /*PÁGINA ÁREAS ATUAÇÕES */
 
     #container-atuacoes{
-    padding: 150px 0 50px;
+     width: 50%;
+     margin: auto; 
+     padding: 150px 0 50px;
     }
     }
+
+
