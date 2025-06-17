@@ -588,6 +588,7 @@ footer h2, footer li, footer a{
 .area-atuacao ul{
   list-style: none;
   text-align: justify;
+  line-height: 2em;
 }
 
 .area-atuacao ul li{
