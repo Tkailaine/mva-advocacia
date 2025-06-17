@@ -132,14 +132,27 @@ nav ul li a:hover::after {
   cursor: pointer;
 }
 
+.btn-flutuante img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* Botão WhatsApp */
 .btn-flutuante.whatsapp {
   background-color: #1cb956;
 }
 
-.btn-flutuante img {
-  width: 28px;
-  height: 28px;
+/* Botão LinkedIn */
+.btn-flutuante.linkedin {
+  background-color: #0077B5;
 }
+
+/* Botão Lattes */
+.btn-flutuante.lattes {
+  background-color: #3366CC;
+}
+
 
 /* Esconder botão topo */
 #btnTopo {
