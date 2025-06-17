@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agradecimento</title>
+    <style>
+        @media (max-width:600px){
+            figure img{
+                width: 230px;
+            }
+
+            p{
+                font-size: 0.9em;
+            }
+        }
+
+        @media (min-width:601px){
+            figure img{
+                width: 300px;
+            }
+
+            p{
+                font-size: 1em;
+            }
+        
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           color: white;
+           font-size: 1.4em;
+           text-align: center;
+            width: 100%;
+            height: 100%; 
+           
+        }
+
+        main{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .central{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 70%;
+            padding: 80px 20px;
+            background-color:#751e27;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.233);
+        }
+        p{
+            font-weight: 300;
+            width: 98%;
+            text-align: center;
+            
+        }
+        button{
+            
+            border: none;
+            height: 35px;
+            width: 120px;
+            border-radius: 30px;
+            background-color: white;
+            cursor: pointer;
+            transition-duration: 0.5s;
+        }
+        button:hover{
+            background-color: #B49465;
+            color: white;
+        }
+        .fundo-personalizado{
+            background-image: url(../imagens/fundo-corpo.jpg);
+            background-size: cover;  
+        }
+
+       
+    </style>
+</head>
+<body class="fundo-personalizado">
+    <main>
+        <div class="central">
+            <div>
+                <figure><img src="../imagens/logo-branco.png" alt="MVA Advocacia"></figure>
+            </div>
+            <p>
+            Obrigada por nos encaminhar um email. Em breve retornamos!</p>
+            <a href="../index.html"><button>Retornar ao site</button></a>
+        </div>
+    </main>
+</body>
+</html>
