@@ -176,9 +176,9 @@ nav ul li a:hover::after {
     margin: 0 auto 80px;
     background: linear-gradient(
         0deg,
-        var(--color-azuere-10, #131212) 0%,
-        var(--color-azure-1070, rgba(68, 1, 5, 0.295)) 60%,
-        var(--color-black-0, rgba(0, 0, 0, 0.527)) 100%
+        var(--color-azuere-10, #13121285) 0%,
+        var(--color-azure-1070, rgba(68, 1, 5, 0)) 60%,
+        var(--color-black-0, rgba(0, 0, 0, 0.37)) 100%
     ),
     url(imagens/bandeira.jpg);
     background-position: center;
