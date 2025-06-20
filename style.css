@@ -598,6 +598,10 @@ footer h2, footer li, footer a{
 
 }
 
+.area-atuacao h2{
+  text-align: justify;
+}
+
 .area-atuacao ul{
   list-style: none;
   text-align: justify;
